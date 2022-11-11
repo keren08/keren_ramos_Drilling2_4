@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.periodico {
+  background-color: rgb(6, 6, 120);
+  color: aliceblue;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.contenedor__parrafo {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+.contenedor__parrafo hr {
+  margin: 0.5rem 10px;
+  height: 0.1rem;
+  background-color: black;
+}
+.contenedor__img {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.contenedor__img__img {
+  width: 100%;
+}
+.contenedor__img__titulo {
+  position: absolute;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  color: orange;
+  -webkit-text-stroke: 1px black;
+  margin: 7rem;
+  text-align: center;
+}
+.contenedor__titulos {
+  display: flex;
+}
+.contenedor__titulos__item {
+  background-color: red;
+  padding: 1rem;
+  color: aliceblue;
+}
+.contenedor__titulos__item__num {
+  background-color: gray;
+  padding: 1rem;
+  float: right;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+  .contenedor__img__titulo {
+    font-size: 2rem;
+    margin: 2rem;
+  }
+  .contenedor__titulos {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedor__titulos__item {
+    background-color: red;
+    padding: 1rem;
+    color: aliceblue;
+  }
+  .contenedor__titulos__item__num {
+    background-color: gray;
+    padding: 1rem;
+    float: right;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
